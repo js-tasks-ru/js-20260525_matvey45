@@ -7,6 +7,6 @@ export function uniq(arr) {
   if (!Array.isArray(arr)) {
     return [];
   }
-
+  // for git change
   return Array.from(new Set(arr));
 }
