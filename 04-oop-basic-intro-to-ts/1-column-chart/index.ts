@@ -31,7 +31,6 @@ export default class ColumnChart {
   }
 
   private createElement(): HTMLElement {
-    // Создаём корневой элемент вручную
     const root = document.createElement('div');
     root.className = `column-chart ${this.data.length ? '' : 'column-chart_loading'}`;
 
