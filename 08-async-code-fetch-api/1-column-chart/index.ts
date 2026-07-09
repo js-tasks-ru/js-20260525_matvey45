@@ -146,3 +146,10 @@ export default class ColumnChart {
       .join('');
   }
 }
+interface Options { }
+
+export default class ColumnChart {
+  constructor({ }: Options = {}) {
+
+  }
+}
