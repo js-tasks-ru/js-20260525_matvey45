@@ -64,10 +64,13 @@ body {
 .sortable-table__header .sortable-table__cell {
   color: var(--grey-light);
   border-top: none;
+
 }
 
 .sortable-table__header .sortable-table__cell[data-sortable] {
   cursor: pointer;
+
+
 }
 
 .sortable-table__cell-img {
